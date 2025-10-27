@@ -1,0 +1,22 @@
+cat > .gitignore << 'EOF'
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+
+# AWS
+*.pem
+
+# Build
+node_modules/
+build/
+dist/
+.env
+
+# IDE
+.vscode/
+.idea/
+EOF
