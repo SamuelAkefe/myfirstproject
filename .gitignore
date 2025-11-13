@@ -24,4 +24,7 @@ dist-ssr
 *.sw?
 
 .terraform
-.env
+.env.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
